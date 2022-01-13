@@ -22,3 +22,6 @@ A rede neural criada tem:
 - - 2 'camadas' de BatchNotmalization, para acelerar os cálculos, pois normaliza os dados
 - - 1 camada Flatten
 
+## Estrutura de diretório
+- pasta principal (arquivo jupyter)
+- dataset (arquivo baixado kaggle). Precisa seguir essa ordem -> dataset/
