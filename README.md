@@ -24,8 +24,7 @@ A rede neural criada tem:
 ## Api
 A api criada está alocada em localHost. Considerações importantes:
 - Como está em localHost, é necessário colocar as imagens que queiram ser classificadas na pasta/api/save_img
-- Após as imagens estarem lá, é necessário executar o arquivo app.py, com isto, pode-se utilizar softwares para requisição,
-- como o postman. Deve-se passar o nome da imagem utilizando uma requisição POST.
+- Após as imagens estarem lá, é necessário executar o arquivo app.py, com isto, pode-se utilizar softwares para requisição, como o postman. Deve-se passar o nome da imagem utilizando uma requisição POST.
 
 ## Observações
 - Caso queira mudar a arquitetura, é possível. O arquivo onde está salvo e passível de mudanças, esta em /api/saved_model
