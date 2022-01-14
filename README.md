@@ -5,7 +5,7 @@ Desenvolvimento de uma arquitetura de rede neural convolucional para a classific
 ## Dados
 - Os dados que foram utilizados pertecem ao kaggle.
 - Link: https://www.kaggle.com/chetankv/dogs-cats-images
-- Foram utilizadas 4000 imagens de gato, 4000 imagens de cachorros para teste. E, para treino, foram usadas 1000 imagens de cada classe.
+- Foram utilizadas 8000 imagens para treino, sendo 4000 de gatos e 4000 de cachorros. E, para teste, foram usadas 1000 imagens de cada classe.
 
 ## Tecnologias
 - Python para criação da arquitetura e para o criar API.
