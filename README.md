@@ -26,3 +26,9 @@ A api criada está alocada em localHost. Considerações importantes:
 - Como está em localHost, é necessário colocar as imagens que queiram ser classificadas na pasta/api/save_img
 - Após as imagens estarem lá, é necessário executar o arquivo app.py, com isto, pode-se utilizar softwares para requisição,
 - como o postman. Deve-se passar o nome da imagem utilizando uma requisição POST.
+
+## Observações
+- Caso queira mudar a arquitetura, é possível. O arquivo onde está salvo e passível de mudanças, esta em /api/saved_model
+- É necessário ficar atento a duas coisas:
+- *1* - ficar atento ao caminho onde é feito a preparação dos dados para treinamento e validação. Pois ele faz acesso as imagens baixadas do kaggle.
+- *2* - Olhar onde estará salvando o modelo. Deixei em branco para ser alterado com maior facilidade. Dependendo de onde for salvo, lembre-se de alterar na api.
